@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+      <title>opencv dnn</title>
+  </head>
+  <body>
+    <h1>opencv dnn</h1>
+    <button id="startStopButton" type="button" disabled="true">Start</button>
+    <div id="status"></div>
+    <canvas
+      id="output"
+      width="640"
+      height="480"
+      style="max-width: 100%; background-color: black;"
+    ></canvas>
+    <!-- <canvas
+    id="output2"
+    width="640"
+    height="480"
+    style="max-width: 100%;"
+  ></canvas> -->
+    <table>
+      <tr id="targetImgs"></tr>
+      <tr id="targetNames"></tr>
+    </table>
+    <button id="addPersonButton" type="button" disabled="true">
+      Add a person
+    </button>
+    <script src="main.bundle.js"></script>
+  </body>
+</html>
